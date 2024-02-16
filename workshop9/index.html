@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- დავალება 1 -->
+
+    <h1>Text File Parser</h1>
+    <input type="file" id="fileInput">
+    <button onclick="parseFile()">Read File</button>
+
+    <div id="output"></div>
+
+
+    <!-- დავალება 2 -->
+
+
+    <h1>Choose picture</h1>
+
+    <input type="file" accept="image/*" id="image-selector">
+    <div id="image-container">
+        <img id="image-preview" src="#" alt="Image Preview">
+    </div>
+
+
+
+    <!-- დავალება 3 -->
+
+    <h1>Upload image or video</h1>
+
+    <input type="file" accept="text/plain, image/*, video/*" id="file-upload" multiple>
+    <button onclick="document.getElementById('file-upload').click()">Choose Files</button>
+    <div id="file-previews"></div>
+
+
+
+
+   <script src="scripts/script.js"></script> 
+</body>
+</html>

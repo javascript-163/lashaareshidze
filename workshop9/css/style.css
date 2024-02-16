@@ -1,0 +1,30 @@
+/* დავალება 1 */
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+
+/* დავალება 2 */
+
+#image-preview {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 20px 0;
+}
+
+
+
+/* დავალება 3 */
+
+
+#file-upload {
+    display: none;
+}
+.file-preview {
+    margin-bottom: 20px;
+}
+video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
