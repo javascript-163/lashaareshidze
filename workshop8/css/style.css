@@ -1,0 +1,42 @@
+/* დავალება 1 */
+
+
+#image-container {
+    margin: 20px auto;
+    text-align: center;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* ================================ */
+
+/* დავალება 2 */
+
+#text-container {
+    margin: 20px auto;
+    text-align: center;
+    line-height: 5;
+}
+.color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.color-text {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+
+/* ================================ */
+
+/* დავალება 3 */
